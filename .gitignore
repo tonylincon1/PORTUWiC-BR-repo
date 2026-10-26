@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python and notebook state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+
+# Downloaded lexical resources and generated datasets
+scripts/data/
+scripts/input/
+scripts/output/
+
+# JavaScript dependencies and build products
+validation-app/node_modules/
+validation-app/dist/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
